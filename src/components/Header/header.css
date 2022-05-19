@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: lime;
+}
+
+header div h1 {
+    text-align: center;
+}
+
+header div button {
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+
+header div.menuButton {
+    width: 32px;
+    height: 32px;
+}
+
+header div.infoButton {
+    width: 32px;
+    height: 32px;
+}
+
+header div.mainLogo {
+    flex: 1;
+}
